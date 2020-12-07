@@ -1,4 +1,4 @@
-f=open("Day 1 Report Repair input.txt","r")
+f=open("Day 1 input.txt","r")
 list=[]
 for line in f:
     list.append(int(line))
