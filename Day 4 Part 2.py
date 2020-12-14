@@ -41,8 +41,10 @@ for x in passports:
                         else:
                             break
                         i=i+1
-                    if (x[i]=='c' and hgt<=193 and hgt>=150) or (x[i]=='i' and hgt<=59 and hgt>=76 ):
-                            count=count+1
+                        #if (x[i]=='c' and hgt<=193 and hgt>=150) or (x[i]=='i' and hgt<=59 and hgt>=76 ):
+                        #    count=count+1
+                        #print(x[x.find("hgt")+4],x[x.find("hgt")+5],x[x.find("hgt")+6])
+                        print(x)
                     
 
 print(count)
